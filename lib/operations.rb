@@ -5,12 +5,10 @@ if speed > 60
  else 
    puts safe
 end
-end
 
 
 def not_safe?(speed = 60)
 speed > 60 ? "unsafe" : "safe"
-end
 end
 	
 
