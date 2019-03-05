@@ -1,7 +1,7 @@
 def unsafe?(speed)
-age = 1
+speed = 60
  
-age < 2 ? "baby" : "not a baby"
+speed < 2 ? "baby" : "not a baby"
 end
 
 
